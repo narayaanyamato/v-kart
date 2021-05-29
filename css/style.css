@@ -1,0 +1,615 @@
+
+
+
+/*  made with love-------*/
+
+
+
+.head
+{
+	background: #0b650c;
+	width: 100%;
+	height: auto;
+}
+
+.icon .fa
+{
+	color: white;
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 5px;
+	border:2px solid white;
+
+}
+  .icon .fa:hover
+  {
+   	background: olive;
+  }
+
+
+  .icon 
+   {
+	text-align: left;
+	padding: 8px;
+   }
+
+ .head p
+ {
+ 	color:white;
+ 	font-weight: bold;
+ 	font-size: 20px;
+ 	padding: 8px;
+ 	text-align: center;
+ }
+
+   .icon2 p
+   {
+   	display: inline;
+   	text-align: right;
+
+   }
+
+   .icon2
+   {
+   	text-align: right;
+   padding-top: 8px
+   }
+
+    .icon2 .fa
+    {
+    	color: white;
+    	font-size: 20px;
+    	background: olive;
+    }
+
+  @media screen and (max-width: 600px)
+ {
+  
+   
+  .icon2
+   {
+   	text-align: center;
+   padding-top: 8px
+   }
+
+   .icon 
+   {
+	text-align: center;
+	padding: 8px;
+   }
+
+   
+ } 
+
+  .brand h2
+  {
+  	color:#0b650c;
+  	font-size: 35px;
+  	font-family: sans-serif;
+  	font-weight: bold;
+  	padding: 8px;
+    word-spacing:8px;
+    text-align: center;
+  }
+
+  .brand span
+  {
+  	font-weight: 300;
+  	font-size: 40px;
+  }
+
+  .form input[type=search]
+  {
+  	border-radius: 8px;
+  	height: 35px;
+  	width: 80%;
+  	border:2px solid #0b650c ;
+  	columns: #0b650c;
+  	padding: 8px;
+  	margin-top: 15px;
+  	text-align: center;
+  }
+
+  .form
+  {
+  	text-align: center;
+  }
+
+   .form input[type="submit"]
+   {
+   	background: #0b650c;
+   	color: white;
+   	border-radius: 5px;
+   	padding: 3px;
+   }
+
+   .icon3
+   {
+   	padding: 7px;
+   }
+
+   .icon3 .fa
+   {
+   	color:#0b650c;
+   	font-weight: bold;
+   	font-size: 20px;
+   	text-align: center;
+   	padding: 15px; 
+   }
+
+
+    .navbar-nav {
+            margin-left: auto;
+        }
+
+      
+      .navbar-toggler-icon
+      {
+      	border:2px solid white;
+      }
+
+      .navbar-toggler button
+      {
+      	color: white;
+      }
+
+     /* change the background color */
+.navbar-custom {
+    background-color: #0b650c;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text a{
+    color:white;
+    font-family: serif;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: white;
+    padding:8px;
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: pink;
+} 
+
+  .hori
+  {
+   background:#0b650c;
+   columns: white; 
+   padding: 5px;
+  }
+
+   .hori h4
+   {
+   	text-align: center;
+   	color: white;
+   	font-weight: bold;
+   	font-family: sans-serif;
+    font-size: 30px;
+   	padding: 10px;
+
+   }
+
+
+  .title
+  {
+  	margin-top: 30px;
+  }
+ .title h3
+ {
+ 	color:#0b650c;
+ 	font-family: sans-serif;
+ 	font-weight: bold;
+ 	font-size: 30px;
+ 	text-align:center;
+ 	padding: 8px; 
+ }
+
+  
+  .cost p
+  {
+  	text-align: center;
+  	color: #0b650c;
+  	font-weight: bold;
+  	font-family: sans-serif;
+  }
+
+   .thumbnail 
+   {
+   	border:1px solid lightgray;
+   }
+
+     .thumbnail p
+     {
+     	text-align: center;
+     	padding: 5px;
+     	color: #0b650c;
+     	margin-bottom: 0px;
+     }
+
+   .thumbnail img 
+   {
+   	border-bottom:1px solid lightgray;
+   }
+
+    .price
+    {
+    	text-align:  center;
+    }
+
+  @media screen and (max-width: 770px)
+  {
+   .price
+   {
+   	text-align: center;
+   	padding: 8px;
+   	word-spacing:5px;
+   }
+
+  }
+
+   .link
+   {
+   	text-align: center;
+   }
+
+  .link p
+  {
+  	text-align: center;
+  	color: #0b650c;
+  	font-family: sans-serif;
+  	font-size: 20px;
+  	padding: 10px;
+
+
+  }
+  .link a
+  {
+    color: white;
+    background:#0b650c ;
+    padding: 7px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  .link a:hover
+  {
+  	background:olive;
+  }
+
+  .div_s
+  {
+
+  	margin-top: 30px;
+  	text-align: center;
+  	border-radius: 10px;
+  	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+
+
+  .div_s h3
+  {
+  	text-align:center;
+  	padding: 5px;
+  	color: #0b650c;
+  	font-weight: bold;
+  }
+
+  .div_s p
+  {
+  	text-align: center;
+  	color:#0b650c;
+  	font-size: 20px; 
+  	font-family: sans-serif;
+  }
+
+   .div_s .fa
+   {
+   	color:  #0b650c;
+   	padding: 8px;
+   	font-weight: bold;
+   	font-size: 22px;
+   	border:2px solid  #0b650c;
+   	border-radius: 8px;
+   }
+
+   .div_s:hover
+   {
+   	background: cornsilk;
+   	
+   }
+
+   .button_link 
+   {
+    background: olive;
+   }
+
+   .footer
+   {
+   	background:#0b650c;
+   	text-align: center;
+   	width: 100%;
+   	height: auto;'
+   	margin-top:20px;
+   
+   } 
+
+
+  .button_link h3
+  {
+    text-align: center;
+    color: white;
+    border-bottom: 2px solid orange;
+
+  }  
+
+
+   .footer h3
+   {
+   font-size: 18px;
+   padding:8px;
+   text-align: center;
+   color: white;
+   }
+
+
+   .imp_link 
+   {
+    text-align: center;
+    color: white;
+    padding: 5px;
+
+   }
+
+      .imp_link a
+      {
+        display: block;
+        color: white;
+        padding: 5px;
+        font-size: 20px;
+        text-decoration: none;
+        line-height: 1;
+
+      }
+
+
+       .imp_link  .fa
+       {
+        border-radius: 5px;
+        border:2px solid white;
+        padding: 2px;
+       }
+
+       .about
+       {
+        background-image:url('img/61gUGe.jpg');
+        width: 100%;
+        height:auto;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+       margin-bottom: 0px;
+       }
+
+   .sub_about
+   {
+    background: rgba(0,0,0,0.52);
+    width: 100%;
+    height:auto;
+   }
+
+    .sub_about h3
+    {
+      text-transform: capitalize;
+      text-align: center;
+      color: white;
+      border-bottom: 2px solid #0b650c;
+      font-weight: bold;
+      padding: 8px;
+      font-family: sans-serif;
+    }
+
+    .sub_about p
+    {
+      color: white;
+      font-family: sans-serif;
+      text-transform: capitalize;
+      text-align: center;
+      font-style: italic;
+      font-size: 20px;
+      padding: 10px;
+    }
+
+
+    .vegetables h3
+    {
+      color:#0b650c;
+      text-transform: capitalize;
+      text-align: center;
+      padding: 8px;
+      font-family: sans-serif; 
+    }
+
+
+    .price p
+    {
+      position: absolute;
+      bottom: 70px;
+      padding: 5px;
+      background:#0b650c;
+      color: white; 
+    }
+
+      .price p:hover
+      {
+        background: olive;
+      }
+
+   .Contact h3
+   {
+
+    text-align: center;
+    color: #0b650c;
+    padding: 8px;
+    font-family: sans-serif;
+    font-weight: bold;
+   } 
+
+
+   .Contact h4
+   {
+    text-align: center;
+    color:#0b650c;
+    font-family: sans-serif;
+    border-bottom: 2px solid #0b650c;
+
+   } 
+
+
+   .Contact label
+   {
+    color:#0b650c;
+    font-size: 20px; 
+   } 
+
+   .Contact input[type="text"],input[type="Email"]
+   {
+    border: 2px solid #0b650c;
+    border-radius: 8px;
+   }
+
+   .Contact textarea
+   {
+    border: 2px solid #0b650c;
+    border-radius: 8px;
+   }
+
+   .Contact input[type="submit"]
+   {
+    background: #0b650c;
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+   }
+
+   .Contact input[type="submit"]:hover
+   {
+    background: olive;
+   }
+
+   .Contact p
+   {
+    text-align: center;
+    color: #0b650c;
+    line-height: 1;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 20px;
+   }
+
+   
+   .Signup h2
+   {
+    text-align: center;
+    color:white;
+    font-family: sans-serif;
+    font-weight: bold;
+   }
+
+   .Signup
+   {
+    margin: auto;
+    width:500px;
+    height: auto;
+    background:#0b650c;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+   }
+
+
+
+
+   .Signup input[type="text"],input[type="Email"],input[type="password"],input[type="tel"]
+   {
+  
+    border: 2px solid red;
+    border-radius: 8px;
+    height: 40px;
+    width: 80%;
+    margin-left: 30px;
+    }
+
+    .Signup label
+    {
+      color: white;
+      padding: 8px;
+      font-family: sans-serif;
+      font-weight: bold;
+      padding-left: 30px;
+    }
+
+    .Signup input[type="submit"]
+    {
+      background:olive;
+      color: white;
+      border-radius: 5px;
+      padding: 5px;
+      margin-left: 30px;
+    }
+
+
+     @media screen and ( max-width: 770px)
+   {
+
+    .Signup input[type="text"],input[type="Email"],input[type="password"],input[type="tel"]
+   {
+  
+    border: 2px solid red;
+    border-radius: 8px;
+    height: 40px;
+    width: 80%;
+    margin-left: 30px;
+    }
+
+    .Signup
+   {
+    margin: auto;
+    width:100%;
+    height: auto;
+    background:#0b650c;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+   }
+
+
+   }
+
+
+   .top
+   {
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+    background:#0b650c;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 999;
+   }
